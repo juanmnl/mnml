@@ -59,10 +59,11 @@
       text-transform: uppercase;
       color: #999;
       text-decoration: none;
-      transition: color .2s ease;
+      transition: all .4s ease;
+      padding: 1px;
     }
     a.disabled:hover {
-      color: #999;
+      color: #b8b7b7;
       background-color: transparent;
     }
     a:hover {
@@ -70,15 +71,19 @@
       color: white;
     }
     .disabled { cursor: not-allowed; }
-    footer > small > p {
-      text-align: center;
+    footer {
+      display: -webkit-flex;
+      display: flex;
+    }
+    p.copy {
+      padding-left: 84px;
     }
   </style>
 </head>
 <body>
   <section>
     <h1>Hello World! <br>My name is<br>Juan Manuel :P</h1>
-    <h2>I'm a {Dev}signer for the web platform</h2>
+    <h2>I {Dev}sign things for the web platform.</h2>
     <p><a class="disabled" href="javascript:void(0)" target="_blank">Work</a></p>
     <p><a href="https://medium.com/@juanmnl" target="_blank">Writing</a></p>
     <p><a href="http://juanmnlcornejo.com/" target="_blank">Illustration</a></p>
@@ -87,7 +92,9 @@
     <p><a class="disabled" href="javascript:void(0)" target="_blank">Photography</a></p>
     <p><a class="disabled" href="javascript:void(0)" target="_blank">CV</a></p>
   </section>
-  <footer><small><p>&copy;juanmnl</p></small></footer>
+  <footer>
+    <small><p class="copy">&copy;juanmnl</p></small>
+  </footer>
   <canvas></canvas>
 
   <script>
