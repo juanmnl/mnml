@@ -13,7 +13,7 @@ TODO --
 - Add tests  
 
 BUGS --
-- Fixed canvas doesn't work on small height viewports  
+- [x] Fixed canvas doesn't work on small height viewports  
 
 ---
 Future TODO
