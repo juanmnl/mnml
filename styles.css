@@ -12,7 +12,6 @@ section {
   display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
-  overflow-y: scroll;
 }
 h1 {
   font-family: 'Luckiest Guy', 'Helvetica Neue', Arial, sans-serif, cursive;
