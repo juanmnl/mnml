@@ -1,0 +1,592 @@
+
+/* ----------------------------------------------------
+	 GENERAL STYLES
+------------------------------------------------------- */
+
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+	color:#333333;
+  background-image:url(../img/bg-sativa.png);
+  background-color:white;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+	margin-bottom:20px;
+}
+
+p {
+  margin: 0 0 20px;
+  font-size:16px;
+  line-height: 1.7em;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+
+}
+
+h2{
+	color:#D91E18;
+	font-size:23px;
+	text-align:left;
+	font-weight:400;
+	font-family: 'Oswald', sans-serif;
+
+
+
+
+}
+
+
+h3 {
+	color:#D91E18;
+	font-size:16px;
+	line-height:2em;
+	text-align:center;
+	font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+
+
+
+
+}
+
+h3 span{
+	color:#D91E18;
+	font-size:15px;
+	display:block;
+	margin-top:2px;
+	padding-bottom:2px;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	text-transform:capitalize;
+
+
+}
+
+
+
+
+h4 {
+	color:#333;
+	font-size:23px;
+	line-height:1.3em;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+
+
+
+}
+
+h5{
+	color:#D91E18;
+	font-size:16px;
+	text-transform:none;
+	display:block;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	margin-top:5px;
+	line-height:1.4em;
+	text-align:center;
+
+
+}
+
+h6{
+
+	font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+	font-size:18px;
+	margin-top:30px;
+	line-height:1.7em;
+	color:#D91E18;
+	text-align:center;
+
+
+}
+
+
+a {
+	color:#D91E18;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+a:hover {
+	color:#81100D;
+}
+
+
+.logo{
+	margin-top:-7px;
+	margin-left:3px;
+
+
+}
+
+
+/* ----------------------------------------------------
+	 NAVIGATION STYLES
+------------------------------------------------------- */
+
+
+.navbar-custom {
+  margin-bottom: 0;
+  text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+  background-color:#d91e18;
+
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	letter-spacing:1px;
+  color:#FFE1B0;
+}
+
+.navbar-custom .navbar-brand:focus {
+  outline: 0;
+}
+
+.navbar-custom .navbar-toggle {
+	color:#FFE1B0;
+
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+  outline: 0;
+
+}
+
+.navbar-custom a {
+  color: #FFE1B0;
+	margin-top:0;
+	font-size:14px;
+}
+
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus{
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+}
+
+img.logo {
+  width: 40px;
+  height: 40px;
+  margin-top: -8px;
+}
+
+
+/* ----------------------------------------------------
+	 INTRO STYLES
+------------------------------------------------------- */
+
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/banner.jpg) no-repeat top center scroll;
+    background-color:white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro .intro-body .main-text {
+  font-size: 50px;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 90px;
+
+}
+
+.intro .intro-body .intro-text {
+  font-size: 18px;
+	padding: 20px;
+	line-height: 1.4em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+
+}
+
+
+/* ----------------------------------------------------
+	 GOOGLE MAP  STYLES
+------------------------------------------------------- */
+
+#map-wrap iframe {
+	width:100%;
+	height: 700px;
+}
+
+#map {
+  overflow-x: hidden;
+}
+
+.map img {
+  max-width: none;
+}
+
+.map {
+  border-top: 20px solid #d91e18;
+  border-bottom: 20px solid #d91e18;
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+/* ----------------------------------------------------
+	 ABOUT  STYLES
+------------------------------------------------------- */
+
+
+
+.box-hours{
+	background-color:#FFC;
+	padding:8px;
+	border:6px double #cdb96c;
+	background-image:url(../img/bg-skulls.png);
+	background-position:left top;
+	background-repeat:repeat;
+	margin-top:76px;
+
+}
+
+
+.circular {
+	width: 150px;
+	height: 150px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius: 50%;
+	float:left;
+	margin-top:27px;
+	margin-left:9px;
+}
+
+
+
+
+/* ----------------------------------------------------
+	 CONTENT STYLE
+------------------------------------------------------- */
+
+
+.content-section {
+    padding-top: 70px;
+	padding-bottom:0;
+}
+
+
+
+/* ----------------------------------------------------
+	 SLIDER STYLES
+------------------------------------------------------- */
+
+.header-carousel{
+	background-color:transparent;
+}
+
+.header-carousel img{
+	height:auto;
+}
+
+.carousel-fade .carousel-inner .item{
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active{
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right{
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right{
+  opacity: 1;
+}
+.carousel-fade .carousel-control{
+  z-index: 2;
+}
+
+.carousel-indicators li{
+	border: 1px solid white;
+}
+.carousel-indicators .active{
+	background-color: white;
+}
+
+
+
+/* ----------------------------------------------------
+	 MAIN MENU STYLES
+------------------------------------------------------- */
+
+
+.menu-content {
+	font-size:15px;
+	position:relative;
+	display:block;
+	line-height:1.7em;
+	margin-bottom:30px;
+	-webkit-font-smoothing: antialiased;
+
+
+}
+
+.heading {
+	font-size:18px;
+	color:#D91E18;
+	padding-bottom: 8px;
+	margin-top:25px;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	font-weight:900;
+
+}
+
+.menu-heading {
+	text-align:left;
+	font-weight:900;
+	color:#cc6633;
+	font-size:18px;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:0;
+
+}
+
+
+.description {
+	text-align:left;
+	color:#333333;
+	width:86%;
+	margin-bottom:27px;
+    font-family: 'Lato', sans-serif;
+	font-weight:400;
+
+
+}
+
+
+.price {
+	position:absolute;
+	font-family: 'Lato', sans-serif;
+	color:#333333;
+	font-size:16px;
+	display:inline;
+	font-weight:900;
+	right:5px;
+
+
+}
+
+
+hr.style {
+  height: 10px;
+  border-style: solid;
+  border-color:#D91E18;
+  border-width: 2px 0 0 0;
+	width:33%;
+  margin-top: 0px;
+}
+
+
+/* ----------------------------------------------------
+	 VISIT US  STYLES
+------------------------------------------------------- */
+
+
+
+.visit-box{
+	background-color:#FFC;
+	border:6px double #D91E18;
+	background-image:url(../img/bg-skulls.png);
+	background-position:left top;
+	background-repeat:repeat;
+	padding:12px;
+
+}
+
+.visit-section {
+    width: 100%;
+    min-height: 600px;
+    padding: 240px 0;
+    color: #fff;
+    background: url(../img/photo1.jpg) no-repeat center center scroll;
+    background-color:white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-btn{
+	color: #fff;
+	background-color:#ceb453;
+	margin-bottom:12px;
+	border-radius:5px;
+	text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+	font-size:14px;
+	text-align:center;
+
+}
+.contact-btn:hover{
+	color:white;
+	background-color:#993300;
+
+
+}
+
+
+/* ----------------------------------------------------
+	 FOOTER STYLES
+------------------------------------------------------- */
+
+
+footer {
+  padding: 40px 0;
+	background-image:url(../img/bg-skulls.png);
+	background-position:left top;
+	background-repeat:repeat;
+}
+
+
+footer .icon1{
+	margin-left:13px;
+	margin-top:0;
+
+}
+
+
+/* ----------------------------------------------------
+	 RESPONSIVE STYLES
+------------------------------------------------------- */
+
+
+@media(max-width:1024px) {
+
+
+.circular {
+	width: 142px;
+	height: 142px;
+}
+
+}
+
+
+
+@media(min-width:767px) {
+
+.intro {
+        height: 100%;
+        padding: 0;
+}
+
+.intro .intro-body .main-text {
+        font-size: 70px;
+        text-transform: none;
+}
+
+.intro .intro-body .intro-text {
+        font-size: 25px;
+}
+
+
+}
+
+@media(max-width:768px) {
+
+
+.box-hours{
+
+	margin-top:40px;
+	margin-bottom:40px;
+
+
+}
+
+}
+
+@media(max-width:600px) {
+
+
+.circular {
+	float:left;
+	margin:7px;
+	padding:12px;
+
+
+}
+
+
+}
+
+
+@media(max-width:320px) {
+
+
+.circular {
+	display:none;
+
+}
+
+.content-section{
+
+	padding-top:46px;
+
+}
+
+
+}
