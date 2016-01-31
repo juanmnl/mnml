@@ -14,7 +14,7 @@ body {
 
 .burrito-wrap {
   position: absolute;
-  overflow: auto;
+  overflow-y: scroll;
   left: 0;
   right: 0;
   top: 0;
@@ -126,9 +126,9 @@ p.copy {
   transform: rotate(66deg);
   -webkit-transform: rotate(66deg);
   -moz-transform: rotate(66deg);
-  animation: roll 6s 1;
-  -webkit-animation: roll 6s 1;
-  -moz-animation: roll 6s 1;
+  animation: roll 1s 1;
+  -webkit-animation: roll 1s 1;
+  -moz-animation: roll 1s 1;
 }
 
 @keyframes roll {
@@ -136,7 +136,7 @@ p.copy {
     transform: rotate(0);
   }
   100% {
-    transform: rotate(66deg);
+    transform: rotate(422deg);
   }
 }
 @-webkit-keyframes roll {
@@ -144,7 +144,7 @@ p.copy {
     transform: rotate(0);
   }
   100% {
-    transform: rotate(66deg);
+    transform: rotate(422deg);
   }
 }
 @-moz-keyframes roll {
@@ -152,7 +152,7 @@ p.copy {
     transform: rotate(0);
   }
   100% {
-    transform: rotate(66deg);
+    transform: rotate(422deg);
   }
 }
 
