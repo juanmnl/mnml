@@ -21,7 +21,7 @@ body {
   bottom: 0;
 }
 
-.burrito-wrap:before {
+/*.burrito-wrap:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -31,7 +31,7 @@ body {
   pointer-events: none;
   background: url(./images/interlace.png) top left repeat, rgba(255, 255, 255, .1);
   opacity: .333;
-}
+}*/
 
 section {
   padding: 3em;
@@ -67,6 +67,7 @@ h2 > span {
   color: white;
   padding: 2px;
   font-size: 1.2em;
+  line-height: 1.4em;
   /*font-weight: bold;*/
 }
 
