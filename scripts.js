@@ -1,6 +1,5 @@
-document.addEventListener('touchmove', function (e) {
-  e.preventDefault()
-})
+'use strict';
+
 var c = document.getElementsByTagName('canvas')[0],
 x = c.getContext('2d'),
 pr = window.devicePixelRatio || 1,
