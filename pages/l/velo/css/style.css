@@ -1,0 +1,30 @@
+/*--------------------------------------------------
+			ANIMATION
+---------------------------------------------------*/
+.info {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+}
+
+.graphic {
+	position: absolute;
+	bottom: 0px;
+
+}
+
+.anim {
+	margin-bottom:0px;
+	background-image: url(../images/velo.gif);
+	height: 600px;
+	width: 600px;
+}
+
+
+.velo {
+	margin-bottom: 0px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
