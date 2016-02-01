@@ -32,7 +32,7 @@ body {
 
 small {
   font-size: .666em;
-  vertical-align: top;
+  vertical-align: middle;
 }
 /*.interlace {
   position: absolute;
@@ -84,7 +84,9 @@ h2 > span {
   /*font-weight: bold;*/
 }
 
-h2 > span > small { padding-left: 2px; }
+h2 > span > small {
+  padding-left: 2px;
+}
 
 ul {
   margin-bottom: 1.1em;
