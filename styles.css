@@ -29,6 +29,11 @@ body {
   background-color: #ed3264;
   padding: 7px 5px 0 5px;
 }
+
+small {
+  font-size: .666em;
+  vertical-align: top;
+}
 /*.interlace {
   position: absolute;
   top: 0;
@@ -77,6 +82,17 @@ h2 > span {
   font-size: 1.2em;
   line-height: 1.4em;
   /*font-weight: bold;*/
+}
+
+h2 > span > small { padding-left: 2px; }
+
+ul {
+  margin-bottom: 1.1em;
+}
+
+li {
+  list-style: none;
+  margin-top: .4em;
 }
 
 p {
