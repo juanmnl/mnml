@@ -16,7 +16,7 @@
   c.width = w*pr;
   c.height = h*pr;
   x.scale(pr, pr);
-  x.globalAlpha = 0.1;
+  x.globalAlpha = 0.2;
 
   function init() {
     x.clearRect(0,0,w,h);
