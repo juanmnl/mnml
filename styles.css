@@ -120,6 +120,7 @@ a {
   text-decoration: none;
   transition: all .4s ease;
   padding: 1px;
+  font-weight: 400;
 }
 
 a.disabled:hover {

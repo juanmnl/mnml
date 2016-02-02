@@ -50,10 +50,13 @@ h2{
 	text-align:left;
 	font-weight:400;
 	font-family: 'Oswald', sans-serif;
+}
 
-
-
-
+h2.our {
+  color: #D91E18;
+  font-size: 25px;
+  text-align: center;
+  line-height: 2em;
 }
 
 
@@ -316,8 +319,21 @@ img.logo {
 
 
 .content-section {
-    padding-top: 70px;
+  padding-top: 70px;
 	padding-bottom:0;
+}
+
+#footer {
+  padding-top: 100px;
+  height: 100vh;
+}
+
+p.center {
+  text-align: center;
+}
+
+p.center > a {
+  color: #333;
 }
 
 
@@ -439,6 +455,20 @@ hr.style {
   margin-top: 0px;
 }
 
+.label-warning {
+  background-color: #FDCE53;
+}
+.label {
+  padding: .1em 0.6em .2em;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  color: #D91E18;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
 
 /* ----------------------------------------------------
 	 VISIT US  STYLES

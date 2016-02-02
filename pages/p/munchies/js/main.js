@@ -34,7 +34,7 @@ jQuery(window).load(function() {
     var gLongitude = -78.485529;
     var gZoom = 17;
     var gTitle = 'MunchiesUIO';
-    var gDescription = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
+    var gDescription = 'Valladolid 152 y Pontevedra (esquina)';
 
     var latlng = new google.maps.LatLng(gLatitude, gLongitude);
 
