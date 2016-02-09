@@ -23,7 +23,7 @@ body {
 	width: 100vw;
 }
 
-a:hover { background-color: transparent; }
+a.image:hover { background-color: transparent; }
 
 canvas {
   z-index: -100;
