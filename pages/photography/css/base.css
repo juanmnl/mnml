@@ -64,7 +64,7 @@ button:focus {
 }
 
 .grid-item {
-	width: 270px;
+	width: auto;
 	padding: 10px;
 }
 
